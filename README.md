@@ -7,4 +7,4 @@
 docker build -t merge-files .
 
 //запустить контейнер//
-docker run --rm -v "$(pwd):/data" merge-files
+docker run -it --rm -v "$(pwd):/data" merge-files
